@@ -77,7 +77,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className}  overflow-y-scroll overflow-x-hidden`}
       >
         <SpeedInsights />
         <Analytics />
