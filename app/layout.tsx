@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     "Android",
   ],
   openGraph: {
-    title: "Ibrahim Memon - SWE | IXD | UX",
+    title: "Tinytalkers",
     description:
-      "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
-    images: "/OpenGraph.jpg",
+      "Aprendamos juntos las palabras!!",
+    images: "/Tinytalkers.svg",
   },
   alternates: {
-    canonical: "https://ibiimemon.com/",
+    canonical: "#",
   },
 };
 export default function RootLayout({
