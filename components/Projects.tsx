@@ -192,7 +192,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Projects: React.FC = () => {
-  const { ref, inView } = useInView({ threshold: 0.2 });
+  const { ref, inView } = useInView({ threshold: 0.1 });
 
   return (
     <motion.section
@@ -212,20 +212,20 @@ const Projects: React.FC = () => {
 
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 sm:mt-7 place-items-center">
         {[
-          { href: "/practice/family", src: "/family.png", title: "FAMILIA" },
-          { href: "/practice/family", src: "/emotional.png", title: "EMOCIONES" },
-          { href: "/practice/family", src: "/house.png", title: "OBJETOS DEL HOGAR" },
-          { href: "/practice/family", src: "/healthy.png", title: "ALIMENTOS Y BEBIDAS" },
-          { href: "/practice/family", src: "/colour.png", title: "COLORES" },
-          { href: "/practice/family", src: "/endocrine-system.png", title: "PARTES DEL CUERPO" },
-          { href: "/practice/family", src: "/laundry.png", title: "ROPA" },
-          { href: "/practice/family", src: "/livestock.png", title: "ANIMALES" }
+          { href: "/practice/familia", src: "/family.png", title: "FAMILIA" },
+          { href: "/practice/emociones", src: "/emotional.png", title: "EMOCIONES" },
+          { href: "/practice/objetos_del_hogar", src: "/house.png", title: "OBJETOS DEL HOGAR" },
+          { href: "/practice/alimentos_y_bebidas", src: "/healthy.png", title: "ALIMENTOS Y BEBIDAS" },
+          { href: "/practice/colores", src: "/colour.png", title: "COLORES" },
+          { href: "/practice/partes_del_cuerpo", src: "/endocrine-system.png", title: "PARTES DEL CUERPO" },
+          { href: "/practice/ropa", src: "/laundry.png", title: "ROPA" },
+          { href: "/practice/animales", src: "/livestock.png", title: "ANIMALES" }
         ].map((item, index) => (
           <Link
             key={index}
             href={item.href}
             rel="noopener noreferrer"
-            target="_blank"
+            
             className="z-[1] flex flex-col items-center text-center"
           >
             <Image

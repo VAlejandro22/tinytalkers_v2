@@ -64,7 +64,7 @@ import Image from "next/image";
 
 const Banner: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center px-5 sm:px-10 md:px-20 mt-10 md:mt-[100px] z-[20]">
+    <div className="flex flex-col md:flex-row items-center justify-center px-5 sm:px-10 md:px-20 mt-40 md:mt-[100px] z-[20]">
       <div className="flex flex-col justify-center text-center w-full">
         
         <div className="flex flex-col sm:flex-row items-center justify-center mt-5 md:mt-10">

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
+  title: "Tinytalkers",
   description:
     "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
@@ -77,11 +77,11 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className}  overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className}  overflow-y-scroll overflow-x-hidden bg-[url('/fondo2.jpg')] bg-cover bg-center bg-no-repeat`}
       >
         <SpeedInsights />
         <Analytics />
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Navbar />
         {children}
       </body>

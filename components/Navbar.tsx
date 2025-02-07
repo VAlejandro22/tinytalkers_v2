@@ -24,7 +24,7 @@ const Navbar: React.FC<{}> = () => {
 
         <div className="flex flex-row gap-5">
           <div
-            onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
+            onClick={() => window.open("mailto:tinytalkers@gmail.com")}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#ff2200] rounded-xl hover:text-white  text-black  py-2 px-5"
           >
             Contacto
