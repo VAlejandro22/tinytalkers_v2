@@ -285,7 +285,7 @@ export default function PracticePage() {
   }
 
   return (
-    <main className="h-screen w-full  flex justify-center items-center">
+    <main className="h-screen w-full  flex justify-center items-center  bg-[url('/fondo2.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="flex flex-col items-center justify-center w-full max-w-4xl p-4">
         <div className="flex flex-col md:flex-row items-center justify-center">
           {!start && (

@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 import StarsCanvas from "@/components/main/StarsBackground";
 export default function Home() {
   return (
-    <main className="h-full w-full  bg-[url('/fondo2.jpg')] bg-cover bg-center bg-no-repeat">
+    <main className="h-full w-full ">
       <StarsCanvas />
     {/* // <main className="h-full w-full  "> */}
 
