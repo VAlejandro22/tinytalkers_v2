@@ -198,7 +198,7 @@ const Projects: React.FC = () => {
     <motion.section
       id="projects"
       ref={ref}
-      className="flex flex-col items-center justify-center h-full relative overflow-hidden px-5 sm:px-10"
+      className="flex flex-col items-center justify-center h-full relative overflow-hidden pt-20 px-5 sm:px-10"
       initial={{ opacity: 0, rotateY: -90, scale: 0.8 }}
       animate={inView ? { opacity: 1, rotateY: 0, scale: 1 } : { opacity: 0, rotateY: -90, scale: 0.8 }}
       transition={{ duration: 1, ease: "easeOut" }}
